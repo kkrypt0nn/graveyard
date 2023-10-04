@@ -7,7 +7,6 @@ import {
   faRobot,
   faRocket,
   faRodSnake,
-  faWifi,
 } from "@fortawesome/free-solid-svg-icons";
 
 export type DeadProject = {
@@ -18,13 +17,6 @@ export type DeadProject = {
 };
 
 export const theGraveyard: DeadProject[] = [
-  {
-    title: "Project Absence, aka absence",
-    description:
-      "Project Absence was my first big project I've made to learn the Go programming language and networking. It was a packet sniffer and network offensive tool made for network analysts. Due to the already existing tools that are around, my motivation went down and after a year I've abandoned the project.",
-    icon: faWifi,
-    survival: "2022-2023",
-  },
   {
     title: "Spacehut",
     description:
