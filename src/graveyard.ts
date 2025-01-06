@@ -4,6 +4,7 @@ import {
   faGamepad,
   faGun,
   faHatCowboy,
+  faNewspaper,
   faRobot,
   faRocket,
   faRodSnake,
@@ -17,6 +18,13 @@ export type DeadProject = {
 };
 
 export const theGraveyard: DeadProject[] = [
+  {
+    title: "Project Serpens",
+    description:
+      "Project Serpens was a project I've sort of always wanted to make but ended up dying pretty quickly. It was supposed to be a website where you can give in news websites, RSS feeds, etc. and it would collect the information abd display it as one. I had some other feature ideas, but I ended up abanoniit after seeing how many of these projects already exist.",
+    icon: faNewspaper,
+    survival: "2024-2025",
+  },
   {
     title: "Spacehut",
     description:
